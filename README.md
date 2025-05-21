@@ -21,3 +21,7 @@ killall Finder
 ```shell
 open ~/.zshrc
 ```
+* setting path in **.zshrc** file
+```text
+export PATH="$(brew --prefix python)/libexec/bin:$PATH"
+```
